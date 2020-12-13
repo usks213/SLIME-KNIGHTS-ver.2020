@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="22" height="34" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <editorsettings>
+  <export target="map.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../tile_set/renga.tsx"/>
+ <tileset firstgid="56" source="../../tile_set/renga_bg.tsx"/>
+ <tileset firstgid="57" source="../map_player.tsx"/>
+ <tileset firstgid="61" source="../map_changeArea.tsx"/>
+ <tileset firstgid="65" source="../map_object.tsx"/>
+ <tileset firstgid="71" source="../map_enemy.tsx"/>
+ <layer id="2" name="bg" width="22" height="34">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCwCgUDAEgAADg4ODg4ADgzoMANMAMMnAAJqqCQksKFKBHXC1UanUVTNsKtUI0rGltcXn3UvCJXcrAVadz1MENIflKL69KsGTkXokpESdrPYFPx0EpqGlpGLMpoo6a/pUoU67Yjfg==
+  </data>
+ </layer>
+ <layer id="4" name="tile" width="22" height="34" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCwCu0GACLFDBDg0rgCAkC3NwPZkAYktFv+VuiqnjNbXPHEEQ+EAeWSIz9uGMoU7OzcvGw6wA0u+GLTUUegIHdBQwJAAiYgSpQB3XR8w0TpX+kjMtUZUY/No+RTybCLFFZqqtfTgInpN6VxnWL5SBxFc8tDzW0MdTsCrvHzyX2sjhGcttEuIevdnQd4mwamOH/5YldjMYPKy/rX1UYx+evYo7tj+kY5Gxj8dQloEqHFuuB2S3nQrVkywPmXHB54I+l2GseoE+4AAyGni8f3KI6RaQL07VoTpY2Uh/yyQfLSDP8B
+  </data>
+ </layer>
+ <layer id="3" name="object" width="22" height="34">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCwCj0CADAAAEFBQUEWgKA94C2CKtxUGyYoAab2G6F+jCTndVEqOArA9sNSt7Bk+mKpfwPmJwjVIU59mBTZXVTBJPUyVAhQ3HV0ooIU
+  </data>
+ </layer>
+ <layer id="6" name="enemy" width="22" height="34">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCwCqUBAGgAAElKAEoASkpLSEgADaCQ3gNgw4RlPAEWzcodKlQyZmyVvpErRWY8XbHy80hpt3RQVWQ=
+  </data>
+ </layer>
+ <layer id="5" name="player" width="22" height="34" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCwCo0AADAAADsAPAADUAIAM+pm/CkV
+  </data>
+ </layer>
+ <layer id="1" name="area" width="22" height="34" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCwCoUAADAAAD8AQAADUAIAm1PzPwE=
+  </data>
+ </layer>
+</map>

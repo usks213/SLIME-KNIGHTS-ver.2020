@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <editorsettings>
+  <export target="../9/map.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../tile_set/renga.tsx"/>
+ <tileset firstgid="56" source="../../tile_set/renga_bg.tsx"/>
+ <tileset firstgid="57" source="../map_player.tsx"/>
+ <tileset firstgid="61" source="../map_changeArea.tsx"/>
+ <tileset firstgid="65" source="../map_object.tsx"/>
+ <tileset firstgid="71" source="../map_enemy.tsx"/>
+ <layer id="2" name="bg" width="40" height="20" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCACw0DAFgAADg4ODg4ODg4ODKgoA9Ag605Weog+KlRcvD42ShpMPzUKDk4/GyUNBh+apQc/FjmEenNJBxwpG8m4YMjfTOJxymHkkvoxSiOogK4KqFyIUM5IEuCI3R6lGqkXt8D/AE=
+  </data>
+ </layer>
+ <layer id="4" name="tile" width="40" height="20" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCAC/UEAKQCDQAAAA4ADAAAAA0RAAAAGBIOABkADgABAAAAAhcdDBcZAAMdDhwNHB0dL6AglTWQAhPNHA0lKFxoupEzjTptIo1XMhMNUb01CbK3Wgjdo82x0VA/Eb7vDDa61GfikUwj+xvTnkZPAHwedQnB8ZhMgGwk81vxHITUTYOR9KcPT2tk9BailoPM4I3jIsqounP4ccZH5cjoE4ZK3vwB
+  </data>
+ </layer>
+ <layer id="3" name="object" width="40" height="20" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCAC0UCAGAAAEFBQUEAQgBBQUQWoDD10AKLIT411EgCO0WMr475lMHaqZkRBqtD6tHoxA1A6owv6ZYZtl1K4qgpsfWoNWlaSNW4j6tABg==
+  </data>
+ </layer>
+ <layer id="6" name="enemy" width="40" height="20" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCAC4UBAJAAAEgASQBKAEkATQBKAEoARwAKoFCCD5BDuwPP6qD6c1x1FKjs1+mczqgf9bLyMQ==
+  </data>
+ </layer>
+ <layer id="5" name="player" width="40" height="20" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCAC40AADAAADsAOgADUAIAZ/GH1SM1
+  </data>
+ </layer>
+ <layer id="1" name="area" width="40" height="20" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCAC4UAADAAAD8APgADUAIA//HX1C0=
+  </data>
+ </layer>
+</map>
