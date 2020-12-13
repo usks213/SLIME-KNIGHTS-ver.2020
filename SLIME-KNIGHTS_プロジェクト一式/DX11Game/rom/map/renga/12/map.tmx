@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="24" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <editorsettings>
+  <export target="../11/map.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../tile_set/renga.tsx"/>
+ <tileset firstgid="56" source="../../tile_set/renga_bg.tsx"/>
+ <tileset firstgid="57" source="../map_player.tsx"/>
+ <tileset firstgid="61" source="../map_changeArea.tsx"/>
+ <tileset firstgid="65" source="../map_object.tsx"/>
+ <tileset firstgid="71" source="../map_enemy.tsx"/>
+ <layer id="2" name="bg" width="24" height="21">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDgBlUBACgAADg4OBCgkG8wg43FFVQDjbxMqQY2zcnOJGpFU6qiDRUaUT363X+6DA==
+  </data>
+ </layer>
+ <layer id="4" name="tile" width="24" height="21" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDgBp0CALANAAAADgAMEQAAABgZFxIMJSUCAwEdGaDguOGQgpbKDAeZkVPGjFFKzoQPSUNOWR1P4AYPXx8QQ+XqKEerijk7rTQVHifj1mOMfsu2pKe3x6sM
+  </data>
+ </layer>
+ <layer id="3" name="object" width="24" height="21" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDgBqUBAFAAAEFBQUNDAEFBEaAQ+9CCvK0GZSjr5qVynzrj1DXkhTDryjplwH/tWl7quxGrxuWRGlI=
+  </data>
+ </layer>
+ <layer id="6" name="enemy" width="24" height="21" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDgBm0BAIAAAEgASABKAEoASwBKAEoACqCAgg+QQ5sDV6iq0R1T/IFf1KAznalH72r4AQ==
+  </data>
+ </layer>
+ <layer id="5" name="player" width="24" height="21" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDgBqUAAEAAADsAOQA8AARQAgBPqnPXf6YC
+  </data>
+ </layer>
+ <layer id="1" name="area" width="24" height="21" locked="1">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDgBp0AAEAAAD8APQBAAARQAgBHB6q3/lA=
+  </data>
+ </layer>
+</map>
