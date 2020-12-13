@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="60" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+ <editorsettings>
+  <export format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../tile_set/renga.tsx"/>
+ <tileset firstgid="56" source="../../tile_set/renga_bg.tsx"/>
+ <tileset firstgid="57" source="../map_player.tsx"/>
+ <tileset firstgid="61" source="../map_changeArea.tsx"/>
+ <tileset firstgid="65" source="../map_object.tsx"/>
+ <tileset firstgid="71" source="../map_enemy.tsx"/>
+ <layer id="2" name="bg" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEWUCAIAAADg4ODg4ODg4ODg4ODg4Hajw/CCDDxA+QeIR8b8SirEXA9mkLNqBJw8eH7x/8NihjGuUcY0yrlHGPcQ4DR7uB+ZSxB69B/7WFFI=
+  </data>
+ </layer>
+ <layer id="4" name="tile" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEVUEACQCDQAAABEAAAAYEhkAFxcRFxERDgAMGQAOABwAAAACAwABHSigILPBYAIVDo8BndRcA1U1iRtQjxJrJp10c2HKeEmzuWuJjVHU5SO6APVfujEjc67qEWA8ugtR0mmANWruNYnDzlPhv1R5hqtL8sOmP4UZN864GjJsYAosH49IMCVcQWecylypHw==
+  </data>
+ </layer>
+ <layer id="3" name="object" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEU0BAEAAAENDAEMAQQyAMO8BqcCfT0AB2k8GQO2MrnBVnnA+MMGrm2WH84EN
+  </data>
+ </layer>
+ <layer id="7" name="object_boss" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEa0AACAAAEYABAB9oYJmc1OBNaDw3nyABQ==
+  </data>
+ </layer>
+ <layer id="6" name="enemy_boss" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEcUAADAAAEoASgAFAJXBD/kEFAxMDGy8SB9gAQ==
+  </data>
+ </layer>
+ <layer id="5" name="player" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEU0AABAAAAEAu9IDLA==
+  </data>
+ </layer>
+ <layer id="1" name="area" width="60" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WDAEU0AABAAAAEAu9IDLA==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="100" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+ <editorsettings>
+  <export target="map.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../startMap/kusa_tile.tsx"/>
+ <tileset firstgid="166" source="../renga/map_object.tsx"/>
+ <tileset firstgid="172" source="../renga/map_changeArea.tsx"/>
+ <tileset firstgid="176" source="../renga/map_player.tsx"/>
+ <tileset firstgid="180" source="../tile_set/renga.tsx"/>
+ <tileset firstgid="235" source="../tile_set/renga_bg.tsx"/>
+ <tileset firstgid="236" source="../renga/map_enemy.tsx"/>
+ <layer id="1" name="bg" width="100" height="22">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgIS0EAJAAAOvr6+vr6+vr6+vr6+vr6wA2oHAdoIKbqgH1VMDlWykMPSowEmqAWZnOOakcyXQgU6VwnhLPdjXjIaTzPx3t9ENGPMxU/qejnX6S4DFPgQac9GcJh3kqwD6oPk/4zFMA9UH7PMGhlyZF6WHGpU+locSMikOBGTUOhTJqHUrGKHQcn/8=
+  </data>
+ </layer>
+ <layer id="7" name="tile" width="100" height="22">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgIU0NAKQDwAAAAM8AAADQxAAAAMXF0MTPy8wAv8XEv8EAv9C0AAAAtba/wMzKyr/AyrW0wM+2ALTQtdDPxAAAAICeqICPAHCCEsBMVdUBEqAQeAgsgoBIEIEEDUQQcAQBRRACFIGksKEMOunYptZdSrO/+qdh+/7E+dC7G5Htm0EMO385LeVE6gCjRrdexyDLw4k9wXKLYcn0jR3DTjLis827/ciHbB5EPs19o3y7ygEkzKrQJAs/ELBiU5So/3sLFAk+9RgO62py1yQ8CAL4t5c3xuRJovbv2KRzh3Atelx9Oi1dSHOyziFknk3EuTCP6fnDzaRZE9wFdZXQ4FWDUD7jrADNG5N9RLtTqz0IxTLLycLk9U8jzhuVhScZO59Z+qKkTpn+5KOXg0AXRTfu5Qa8ncLyUfg1wPZ3GTgnXjwGXk1ZrAvtUcIyeM+xiDGEPHhf5FXLQl0JWK5XxroDoFYSL+eKrPlC3LccbIh0V4FwUJOblM7a+pJ+J7WPOeBBWe6BnvU8ZL0yyz2PYMCx3J9oZ4KPy+F0nT/Be80Cx0piyqXBONiABtfaOxp8
+  </data>
+ </layer>
+ <layer id="3" name="object" width="100" height="22">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgIaUCAHgAAKgAqACoAKaoAKioqakboFDvYMOEKWgOFaswpDg2T7GrTFXN01WB6B0l1egI1dv8IuVQgIsP0a1ZqJqnFryramS1f7a975QNjq62pUbx8XxHAg==
+  </data>
+ </layer>
+ <layer id="4" name="enemy" width="100" height="22">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgIa0AAEAAAO8A7ADsAARQAgBDq59r6ln3AQ==
+  </data>
+ </layer>
+ <layer id="5" name="player" width="100" height="22">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgIXUAACAAALAAAgDHgx8/ag+w
+  </data>
+ </layer>
+ <layer id="6" name="area" width="100" height="22">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgIXUAACAAAK0AAgA/gh9fcA+w
+  </data>
+ </layer>
+</map>
